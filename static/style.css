@@ -1,0 +1,30 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cor de fundo */
+}
+
+.contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color: white; /* Cor do quadro */
+    border: 2px solid #ccc; /* Borda do quadro */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#counter {
+    font-size: 2rem; /* Tamanho da fonte para o contador */
+    font-weight: bold;
+    color: #007bff; /* Cor do contador */
+}
